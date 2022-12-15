@@ -57,3 +57,10 @@ $bgColor2 : #ededed;
         border: 1px solid $bgColor;
     }
 }
+@mixin title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    margin-bottom: 20px;
+}
