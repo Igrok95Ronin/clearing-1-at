@@ -1,0 +1,39 @@
+.benefits {
+    background-color: $bgColor;
+    color: #fff;
+}
+.benefits__box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 15px 0;
+}
+.benefits__svg {
+    position: relative;
+    padding-left: 40px;
+    &::before {
+        content: '';
+        position: absolute;
+        background: url(../icons/automobile.svg);
+        width: 25px;
+        height: 25px;
+        background-size: cover;
+        left: 0;
+        top: -3px;
+    }
+}
+.benefits__svg:nth-child(2) {
+    &::before {
+        background: url(../icons/wrench.svg);
+    }
+}
+.benefits__svg:nth-child(3) {
+    &::before {
+        background: url(../icons/bin2.svg);
+    }
+}
+.benefits__svg:nth-child(4) {
+    &::before {
+        background: url(../icons/dollar.svg);
+    }
+}
