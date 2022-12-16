@@ -1,0 +1,32 @@
+.faq {
+    padding: 64px 0;
+    border-top: 5px solid #feb901;
+    padding: 64px 0;
+}
+.faq__box {
+}
+.faq__title {
+    @include title;
+    text-align: center;
+}
+.faq__wrapper {
+}
+.faq__name {
+    @include title;
+    font-size: 16px;
+}
+.faq__ul {
+    padding-left: 40px;
+}
+.faq__li {
+    line-height: 24px;
+    margin-bottom: 15px;
+    list-style:decimal;
+    padding-left: 10px;
+    span{
+        text-decoration-line: underline;
+    }
+}
+.faq__txt {
+    line-height: 24px;
+}

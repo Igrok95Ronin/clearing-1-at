@@ -1,0 +1,45 @@
+.thisIsHowWeWork {
+    background-color: #ededed;
+    border-top: 5px solid #feb901;
+    padding: 64px 0;
+}
+.thisIsHowWeWork__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px
+}
+.thisIsHowWeWork__left {
+}
+.thisIsHowWeWork__title {
+    @include title;
+}
+.thisIsHowWeWork__img {
+    max-width:100%;
+}
+.thisIsHowWeWork__right {
+    padding-left: 40px;
+}
+.thisIsHowWeWork__name {
+    font-weight: bold;
+    line-height: 24px;
+    position: relative;
+    &::before {
+        content: '✔ ';
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: -30px;
+        background-color: #feb901;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+}
+.thisIsHowWeWork__txt {
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+.thisIsHowWeWork__btn {
+    @include btn;
+}

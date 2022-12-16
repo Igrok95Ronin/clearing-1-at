@@ -1,0 +1,27 @@
+.forms {
+    padding: 150px 0 50px;
+}
+.forms__wrapper {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 40px;
+    width: 60%;
+    min-width: 300px;
+    box-shadow: 2px 3px 15px #c9c6c6;
+    border-radius: 50px;
+}
+.forms__box {
+}
+.forms__title {
+    @include title;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 3.0rem;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+.forms__button {
+    @include btn;
+}
